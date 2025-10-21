@@ -1,0 +1,15 @@
+===================================================
+Trabalho: blkdump - Visualizador de Bloco de Disco
+Aluno: Diony Tarso Ferreira Filho
+===================================================
+
+Instruções para Compilação e Execução:
+
+1. Para compilar o programa, utilize o Makefile fornecido. No terminal, execute o comando:
+   make
+
+2. Para testar o programa, execute o comando abaixo, que irá ler o bloco 0 do arquivo 'disco.bin' incluído no projeto:
+   ./blkdump disco.bin 0
+
+3. O programa aceita como argumentos o nome de qualquer arquivo e um índice de bloco não-negativo.
+   Exemplo de uso: ./blkdump <arquivo> <indice_do_bloco>
